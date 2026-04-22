@@ -1,0 +1,17 @@
+,model,accuracy,precision,recall,f1,roc_auc
+Logistic Regression,LogisticRegression(random_state=42),0.7388218594748048,0.5050847457627119,0.7967914438502673,0.6182572614107884,0.8402800382340024
+Random Forest,RandomForestClassifier(random_state=42),0.7721788502484032,0.5714285714285714,0.5668449197860963,0.5691275167785235,0.8205042754914879
+XGBoost,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric='logloss',
+              feature_types=None, feature_weights=None, gamma=None,
+              grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, ...)",0.7757274662881476,0.5759162303664922,0.5882352941176471,0.582010582010582,0.8191970859490041
+LightGBM,LGBMClassifier(random_state=42),0.7828246983676366,0.5871794871794872,0.6122994652406417,0.599476439790576,0.8321268955540055
+CatBoost,"CatBoostClassifier(random_state=42, verbose=0)",0.7863733144073811,0.5933503836317136,0.6203208556149733,0.6065359477124183,0.8369293962644346
